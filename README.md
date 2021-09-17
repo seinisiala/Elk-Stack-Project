@@ -97,7 +97,7 @@ SSH into the control node and follow the steps below:
 - Which URL do you navigate to in order to check that the ELK server is running?
 - https://[public IP address of Elk VM]/app/kibana
 
-- The specific commands the user will need to run to download the playbook, update the files, etc:
- Filebeat
+ ### The specific commands the user will need to run to download the playbook, update the files, etc:
+ - Filebeat
 
  
