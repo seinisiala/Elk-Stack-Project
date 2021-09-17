@@ -98,6 +98,6 @@ SSH into the control node and follow the steps below:
 - https://[public IP address of Elk VM]/app/kibana
 
 - The specific commands the user will need to run to download the playbook, update the files, etc:
-Filebeat
+ Filebeat
 
  
