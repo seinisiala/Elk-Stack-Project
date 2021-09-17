@@ -62,7 +62,7 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- running services can be controlled and limited as well as a more steamlined system installation. 
+- running services can be controlled and limited as well as a more streamlined system installation. 
 
 The playbook implements the following tasks:
 - Install docker.io
