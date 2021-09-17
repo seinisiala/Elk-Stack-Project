@@ -99,28 +99,5 @@ SSH into the control node and follow the steps below:
 
 - The specific commands the user will need to run to download the playbook, update the files, etc:
 - Filebeat
-  ---
-- name: installing and launching filebeat
-  hosts: webservers
-  become: yes
-  tasks:
 
-  - name: download filebeat deb
-    command: curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.6.1-amd64.deb
-
-  - name: install filebeat deb
-    command: dpkg -i filebeat-7.6.1-amd64.deb
-
-  - name: drop in filebeat.yml
-    copy:
-      src: /etc/ansible/roles/filebeat-config.yml
-      dest: /etc/filebeat/filebeat.yml
-
-  - name: enable and configure system module
-    command: filebeat modules enable system
-
-  - name: setup filebeat
-    command: filebeat setup
-
-  - name: start filebeat service
-    command: service filebeat start
+ 
