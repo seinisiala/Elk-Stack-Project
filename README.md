@@ -89,7 +89,7 @@ These Beats allow us to collect the following information from each machine:
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the configuratio file to Ansible container;
+- Copy the configuration file to Ansible container;
 - Update the /etc/ansible/hosts file to include the webservers IP addresses and the Elk VM IP address; 
 - Run the playbook, and navigate to https://[public IP address of Elk VM]/app/kibana to check that the installation worked as expected.
 - The file
