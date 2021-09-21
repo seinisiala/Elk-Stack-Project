@@ -97,7 +97,9 @@ SSH into the control node and follow the steps below:
 
 
  ### The specific commands the user will need to run to download the playbook, update the files, etc:
- Filebeat
+ - Filebeat
  [Filebeat Playbook](https://github.com/seinisiala/Elk-Stack-Project/blob/main/File_Beat_Playbook)
+ - Metricbeat
+ [Metricbeat Playbook](https://github.com/seinisiala/Elk-Stack-Project/blob/main/Metric_Beat_Playbook)
 
  
