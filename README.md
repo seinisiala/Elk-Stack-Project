@@ -3,6 +3,8 @@
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
+
+
 ![Elk Diagram](https://github.com/seinisiala/Elk-Stack-Project/blob/main/Elk%20Stack%20Diagram.drawio.png)
 
 
